@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-catalog-product-grid-multiple-sku-filter/v)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-multiple-sku-filter) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-catalog-product-grid-multiple-sku-filter/downloads)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-multiple-sku-filter) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-multiple-sku-filter) [![License](http://poser.pugx.org/aimanecouissi/module-catalog-product-grid-multiple-sku-filter/license)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-multiple-sku-filter/license) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-catalog-product-grid-multiple-sku-filter/require/php)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-multiple-sku-filter/require/php)
 
-Adds support for filtering the Admin product grid by multiple SKUs using a comma-separated list.
+Extends the **Admin → Catalog → Products** grid **SKU** filter to accept a comma-separated list of values.
 
 ## Installation
 ```bash
@@ -13,7 +13,8 @@ bin/magento cache:flush
 ```
 
 ## Usage
-Open **Admin → Catalog → Products** and use the **SKU** filter. Enter multiple SKUs separated by commas and the grid will return products matching any of the provided SKUs. Entering a single SKU keeps Magento's default filter behavior.
+
+Open **Admin → Catalog → Products** and enter multiple SKUs separated by commas in the **SKU** filter. The grid returns all products matching any of the provided values. A single SKU preserves Magento's default filter behavior.
 
 ## Uninstall
 ```bash
@@ -24,4 +25,5 @@ bin/magento cache:flush
 ```
 
 ## License
+
 [MIT](LICENSE)
