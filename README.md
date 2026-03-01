@@ -13,7 +13,7 @@ bin/magento cache:flush
 ```
 
 ## Usage
-Open **Admin → Catalog → Products** and use the **SKU** filter. Enter multiple SKUs separated by commas (for example: `SKU-001, SKU-002, SKU-003`) and the grid will return products matching any of the provided SKUs. Entering a single SKU keeps Magento’s default filter behavior.
+Open **Admin → Catalog → Products** and use the **SKU** filter. Enter multiple SKUs separated by commas and the grid will return products matching any of the provided SKUs. Entering a single SKU keeps Magento's default filter behavior.
 
 ## Uninstall
 ```bash
