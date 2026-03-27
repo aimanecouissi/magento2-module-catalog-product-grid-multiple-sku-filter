@@ -1,0 +1,42 @@
+{
+    "name": "aimanecouissi/module-catalog-product-grid-multiple-sku-filter",
+    "version": "1.0.0",
+    "description": "Add multiple SKU filter support to the Admin product grid",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "admin",
+        "catalog",
+        "product-grid",
+        "sku",
+        "filter"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-catalog-product-grid-multiple-sku-filter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "magento/framework": "103.0.*"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-catalog-product-grid-multiple-sku-filter/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-catalog-product-grid-multiple-sku-filter"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\CatalogProductGridMultipleSkuFilter\\": ""
+        }
+    }
+}
